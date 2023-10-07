@@ -9,6 +9,9 @@ background-color: black;
 margin: 0;
 padding: 0;
 }
+.whole_container{
+  width: 100%;
+}
 /* Background Image  */
 .back_img{
   width: 95vw;
@@ -40,6 +43,8 @@ padding: 0;
 .logo_img{
   width: 5vw;
 }
+
+
 /* Menu  */
 .menu_list{
   display: flex;
@@ -333,4 +338,238 @@ margin-left: 55px;
 .right1{
   margin-left: 14px;
 }
+/* 1300px Set Media Query  */
+@media screen and (max-width:1300px)  {
+  .back_img{
+     width: auto;
+  }
+  .header{
+    width: 100%;
+  }
+  .left_header{
+    width: 40vw;
+    margin-left: -15px;
+  }
+  .menu_list{
+    width: 25vw;
+    justify-content: space-between;
+    margin-left: 10px;
+  }
+  .right_header{
+    margin-right: -115px;
+  width: 20vw;
+  }
+  .see_again_images{
+    gap: 25px;
+  }
+  .trending_img{
+    gap: 25px;
+  }
+  .scifi_img{
+    gap: 25px;
+  }
+  .footer_cont{
+    gap: 10px;
+  }
+}
+/* 1100 px Set  */
+@media screen and (max-width:1100px)  {
+  .back_img{
+     width: auto;
+  }
+  
 
+  .right_header{
+    margin-right: -300px;
+   width: 20vw;
+  }
+  .footer{
+    width: 86vw;
+  }
+  .contact{
+    width: 20vw;
+  }
+  .play_button{
+  width: 7vw;
+  height: 3vh;
+  }
+  .info{
+    width: 10vw;
+    height: 3vh;
+  }
+  .logo_img{
+    width: 7vw;
+  }
+}
+/* 800 px Set  */
+@media screen and (max-width:800px)  {
+.header{
+  width: 100%;
+}
+.left_header{
+  width: 50vw;
+  margin-left: 30px;
+}
+.menu_list{
+  width: 40vw;
+}
+.right_header{
+  margin-right: -575px;
+  width: 30vw;
+}
+.play_button{
+  width: 9vw;
+  height: 4vh;
+}
+.info{
+  width: 12vw;
+  height: 4vh;
+}
+.footer{
+  width: 119vw;
+}
+.contact{
+  width: 23vw;
+}
+.logo_img{
+  width: 10vw;
+}
+}
+/* 600 px Set  */
+@media screen and (max-width:600px)  {
+  .left_header{
+    width: 140vw;
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+
+.logo_img{
+  width: 40vw;
+}
+.menu_list{
+  margin-left: 20px;
+  width: 100vw;
+  font-size: 25px;
+}
+.menutext{
+opacity: 1;
+}
+.right_header{
+  display: none;
+}
+.Image_text{
+  width: 90vw;
+}
+.show_image img{
+  width: 35px;
+}
+.show{
+  font-size: 30px;
+  margin-top: 15px;
+  margin-left: 25px;
+}
+.maid{
+  font-size: 160px;
+}
+.play_button{
+  width: 28vw;
+  height: 7vh;
+  
+}
+.play{
+  font-size: 32px;
+  font-weight: 600;
+}
+.info{
+width: 35vw ;
+height: 7.5vh;
+}
+.more_info{
+  font-size: 25px;
+  font-weight: 500;
+}
+.see_again_text{
+  font-size: 30px;
+}
+.right1{
+  margin-left: 10px;
+}
+.width_size{
+  width: 600px;
+  height: auto;
+}
+.see_again_images{
+  margin-top: 30px;
+  margin-left: 50px;
+  grid-template-columns: repeat(2,1fr);
+  column-gap: 100px;
+}
+.top_ten{
+  margin-top: 1150px;
+}
+.top_ten_text{
+  font-size: 30px;
+}
+.number_width{
+  width: 300px;
+  margin-left: 20px;
+}
+.image_width{
+  width: 300px;
+  height: auto;
+}
+.top_ten_images{
+  margin-top: 1100px;
+  grid-template-columns: repeat(2,1fr);
+  column-gap: 80px;
+}
+.trending_attach{
+  margin-top: 100px;
+}
+.trending_txt{
+  font-size: 30px;
+}
+.trending_width{
+  width: 600px;
+  height: auto;
+}
+.trending_img  {
+  grid-template-columns: repeat(2,1fr);
+  column-gap: 100px;
+  margin-left: 100px;
+}
+.scifi_attach{
+  margin-top: 80px;
+}
+.scifi_txt{
+  font-size: 30px;
+}
+.scifi_width{
+  width: 600px;
+  height: auto;
+}
+.scifi_img{
+  grid-template-columns: repeat(2,1fr);
+  column-gap: 100px;
+  margin-left: 100px;
+}
+.footer{
+  width: 300vw;
+  margin-left: 40px;
+}
+.contact{
+  width: 40vw;
+}
+.footer_1 ul li{
+  font-size: 30px;
+}
+.footer_2 ul li{
+  font-size: 30px;
+}
+.footer_3 ul li{
+  font-size: 30px;
+}
+.footer_4 ul li{
+  font-size: 30px;
+}
+}
